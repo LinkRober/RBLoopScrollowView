@@ -51,6 +51,9 @@ class RBLoopScrollowView: UIView {
                                              y: 0,
                                              width: frame.size.width,
                                              height: frame.size.height)
+//            imageview.element.transform = CGAffineTransform.init(scaleX: 0.8, y: 0.8)
+            
+            imageview.element.layer.transform = CATransform3DMakeScale(0.8, 0.8, 0.8)
         }
         
     }
